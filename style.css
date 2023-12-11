@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display&display=swap');
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+
+.links {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  display: flex;
+}
+
+.links label {
+  padding: 10px 0;
+  flex-grow: 1;
+  cursor: pointer;
+  transition: all .4s;
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 100%;
+  color: black;
+}
+
+.links label:hover {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.scroll {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sections {
+  transition: all .4s;
+}
+
+.input-menu {
+  display: none;
+}
+
+.bloco {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  background-image: url("tile_background.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+}
+
+
+
+fieldset {
+  border: 3px solid #FB0000;
+}
+
+.inputBox {
+  position: relative;
+}
+
+.inputUser {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: tomato;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+#rd_cardapio {
+display: none;
+}
+#rd_quemsomos {
+  display: none;
+}
+#rd_faleconosco {
+  display: none;
+}
+#rd_pedido {
+  display: none;
+}
+#rd_pedido:checked ~ .sections {
+  margin-top: -100vh;
+
+}
+
+#rd_faleconosco:checked ~ .sections {
+  margin-top: -200vh;
+}
+
+#rd_quemsomos:checked ~ .sections {
+  margin-top: -300vh;
+}
+
+.columns{ /*CARDAPIO*/
+  /*Altura e número de colunas */
+  -webkit-columns: 150px 3;
+  -moz-columns: 150px 3;
+  columns: 150px 3;
+
+  /*Espaçamento entre as colunas*/
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+
+}
+
+img {
+  width:200px;
+  height:200px;
+}
+
+#conteudo-cardapio-titulo{
+  padding-top: 100px;
+  text-align: top;
+}
+
+.espelho {
+/* From https://css.glass */
+  background: rgba(251, 0, 0, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+}
+
+.menus{
+  padding-top: 50px;
+}
+
+
+/*RODAPE*/
+footer {
+  background-color: #fb0000;
+  color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  width: 103%;
+}
+
+.rodapedetalhes {
+  font-size: 16px;
+  color: white;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-variant-caps: all-petite-caps;
+  margin-left: 1%;
+}
+.rodapedetalheshr {
+  font-size: 22px;
+  background-color: rgb(94, 2, 2);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.rodapedetalhes1 {
+  margin-left: 1%;
+}
+.gmap_canvas{
+  margin-left: 3%;
+}
+.redelink1 {
+  color: white;
+  text-decoration-line: none;
+  margin-left: 1%;
+  font-size:larger;
+  margin-bottom: 5px;
+}
+.redelink2 {
+  color: white;
+  text-decoration-line: none;
+  margin-left: 1%;
+  font-size:larger;
+  margin-bottom: 5px;
+}
