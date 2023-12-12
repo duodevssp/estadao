@@ -1,11 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display&display=swap');
-/*font-family: 'Oswald', sans-serif;
-font-family: 'Playfair Display', serif;*/
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+--branco-bege: #FAF7F0;
+--cinza-claro:#C2BFB8;
+--rosa-claro: #FEF0CA;
+--verde-escuro: #005B46;
+--laranja-medio: #F99052;
+}
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -63,17 +69,13 @@ font-family: 'Playfair Display', serif;*/
   #rd_pedido {
     display: none;
   }
-  #rd_pedido:checked ~ .sections {
-    margin-top: -100vh;
-  
-  }
-  
+
   #rd_faleconosco:checked ~ .sections {
-    margin-top: -200vh;
+    margin-top: -100vh;
   }
   
   #rd_quemsomos:checked ~ .sections {
-    margin-top: -300vh;
+    margin-top: -200vh;
   }
 
 .bloco {
@@ -83,8 +85,6 @@ font-family: 'Playfair Display', serif;*/
   align-items: center;
   display: flex;
   background-color: white;
-  background-image: url("tile_background.png");
-  background-repeat: no-repeat;
 }
 
 /*CARDAPIO*/
@@ -178,34 +178,6 @@ img {
   text-align: top;
 }
 
-/*PEDIDOS*/
-.pedidodetalhes {
-  background: rgba(252, 250, 250, 0.10);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 032);
-  backdrop-filter: blur(3.1px);
-  -webkit-backdrop-filter: blur(3.1px);
-  display: flex;
-  flex-direction: column;
-  position:relative;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  padding: 5%;
-  
-}
-.pedidotexto{
-  color: rgb(94, 2, 2);
-  text-align: center;
-}
-.pedidotexto1{
-  color: #FB0000;
-  justify-items: center;
-  align-items: center;
-  text-decoration:none;
-  font-weight: bold;
-  font-size: larger;
-}
 
 /*FALE CONOSCO*/
 .box{
@@ -373,45 +345,21 @@ footer {
   background-color: #fb0000;
   color: beige;
   display: flex;
-  flex-direction: column;
-  justify-content:center;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: flex-start;
+  padding: 1%;
 }
 
 .rodapedetalhes {
-  font-size: 16px;
   color: white;
-  padding-bottom: 5px;
-  font-size: 20px;
-  font-variant-caps: all-petite-caps;
-  margin-left: 1%;
-}
-.rodapedetalheshr {
-  font-size: 22px;
-  background-color: rgb(94, 2, 2);
+  font-size: 14px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  width: 600px;
 }
-.rodapedetalhes1 {
-  margin-left: 1%;
-  text-decoration: none;
-  color: white;
-}
-.gmap_canvas{
-  margin-left: 3%;
-}
+
 .redelink1 {
   color: white;
   text-decoration-line: none;
   margin-left: 1%;
-  font-size:larger;
-  margin-bottom: 5px;
-}
-.redelink2 {
-  color: white;
-  text-decoration-line: none;
-  margin-left: 1%;
-  font-size:larger;
-  margin-bottom: 5px;
 }
