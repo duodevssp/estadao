@@ -17,7 +17,7 @@ O website foi aprimorado com recursos atrativos, apresentando um carrossel inter
 
 ## Layout Desktop
 
-- **Tela inicial do cardapio **
+- **Tela inicial do cardapio**
 
   ![Desktop_1](https://github.com/duodevssp/estadao/assets/153000935/74b6f73f-f8ba-4a11-ad71-0738078032ae)
   
