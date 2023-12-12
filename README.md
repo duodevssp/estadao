@@ -1,20 +1,17 @@
 # Estadão Bar e Lanches
 
-Bem-vindo ao repositório do projeto Pamonha da Iris! Neste site incrível você irá encontrar uma variedade de sabores das nossas deliciosas pamonhas disponíveis.
-
-Acesse o link do GitHub pages: https://duodevssp.github.io/pamonha-da-iris/
+Bem-vindo ao repositório do projeto Bar e Lanche ESTADÃO!
 
 ## Tabela de Conteúdos
 
-- [Visão Geral](#visão-geral)
+- [Visão Cardápio](#visão-cardapio)
 - [Layout Desktop](#layout-desktop)
+- [Layout mobile](#layout-mobile)
 - [Licença](#licença)
 
 ## Visão Geral
 
-O projeto Pamonha da Iris é um site dedicado a compartilhar e promover as incríveis pamonhas feitas pela Iris. 
-O website foi aprimorado com recursos atrativos, apresentando um carrossel interativo na página inicial que permite aos usuários navegar manualmente pelos destaques ou desfrutar de uma transição automática entre os slides. Links de acesso rápido foram incorporados para facilitar a navegação até páginas-chave. O design responsivo assegura uma experiência consistente em vários dispositivos, enquanto cada slide do carrossel oferece conteúdo dinâmico e visualmente envolvente. A paleta de cores e os elementos estilizados visam proporcionar uma experiência visual agradável, adaptável às necessidades específicas do projeto. Adicionalmente, o site inclui integração com o WhatsApp para facilitar pedidos, e informações detalhadas sobre o cardápio estão disponíveis para os usuários explorarem.
-
+O projeto do site Bar e Lanche ESTADÃO se trata de uma iniciativa de dois programadores num intuito de aplicar conhecimentos recém adquiridos para aplicações front-end de customização bem simplificada. Num contexto geral o site foi concebido em HTML e CSS, criando três áreas principais de Cárdapio, Fale Conosco e Sobre Nós. Onde em cada um deles incluímos seus principais pontos de destaque de seus respectivos temas.
 ## Layout Desktop
 
 - **Tela inicial do cardapio**
